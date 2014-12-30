@@ -1,4 +1,10 @@
 react-carousel-proto
 ====================
 
-ReactJS Carousel prototype 
+ReactJS Carousel prototype
+
+To run:
+
+* `npm install`
+* `gulp dev`
+* go to `localhost:9000`
