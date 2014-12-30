@@ -1,0 +1,53 @@
+a {
+    cursor: pointer;
+}
+
+.carousel {
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.carousel__window {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel__slides {
+    -webkit-transition: all 300ms ease-in;
+            transition: all 300ms ease-in;
+}
+
+.carousel__controls {
+
+}
+
+.carousel__control {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.carousel__control--prev {
+    text-align: left;
+}
+
+.carousel__control--next {
+    text-align: right;
+}
+
+.carousel__pages {
+    text-align: center;
+}
+
+.carousel__page {
+    padding: 0 5px;
+}
+
+.carousel__page--selected {
+    font-weight: bold;
+}
+
+.carousel__slide {
+    display: inline-block;
+    vertical-align: middle;
+}
